@@ -6,16 +6,16 @@ homepage:            https://gitlab.com/xaverdh/dtypes-extra/tree/master
 license:             MIT
 license-file:        LICENSE
 author:              Dominik Xaver Hörl
-maintainer:           
+maintainer:          Dominik Xaver Hörl
 category:            Data, Generics
 build-type:          Simple
 extra-source-files:  ChangeLog.md, README.md
 cabal-version:       >=1.10
 
 library
-  -- exposed-modules:  DTypes.Collect, DTypes.Instances.AlternativeInducesMonoid
+  exposed-modules:  DTypes.Collect, DTypes.Instances.AlternativeInducesMonoid
   -- other-modules:       
   -- other-extensions:    
-  build-depends:       base >=4.9 && <4.10, dtypes
+  build-depends:       base >=4.9 && <4.10, dtypes >= 0.1.0 && < 0.2
   hs-source-dirs:      src
   default-language:    Haskell2010
