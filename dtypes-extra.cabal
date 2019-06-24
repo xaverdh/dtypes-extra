@@ -16,6 +16,7 @@ library
   exposed-modules:  DTypes.Collect, DTypes.Instances.AlternativeInducesMonoid
   -- other-modules:       
   -- other-extensions:    
-  build-depends:       base >=4.9 && <4.10, dtypes >= 0.1.0 && < 0.2
+  build-depends:       base
+  build-depends:       dtypes >= 0.1.0 && < 0.2
   hs-source-dirs:      src
   default-language:    Haskell2010
